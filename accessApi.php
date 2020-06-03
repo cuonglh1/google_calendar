@@ -1,11 +1,11 @@
 <?php
     function createClient() {
         $client = new Google_Client();
-        $client->setApplicationName("cuonglh97");
-        $client->setDeveloperKey('AIzaSyAW4A8PlrbhZOYe6TqSzOKc5JNhQActL_Y');
-        $client->setClientId('1024382131169-mh2l58ssk3g90jrfb3aptrl47c4fcqvf.apps.googleusercontent.com');
-        $client->setClientSecret('33Y5rspt4TkeU-e4jW-5xO9m');
-        $client->setRedirectUri('http://localhost/google_calendar/google_calendar_object');
+        $client->setApplicationName("cuongle997");
+        $client->setDeveloperKey('AIzaSyBYpZMwwBbM6VKLajU2QgWiBKZcyubc3JA');
+        $client->setClientId('212365518350-4k5uk09v7ugtv9iv3rjqsapo0rm0lb2d.apps.googleusercontent.com');
+        $client->setClientSecret('H9DZW05dMpiZaSJ2MWclS21Q');
+        $client->setRedirectUri('http://localhost/google_calender/google_calendar_object');
         return $client;
     }
 ?>

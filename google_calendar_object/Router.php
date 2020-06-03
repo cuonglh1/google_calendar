@@ -1,8 +1,11 @@
 <?php
 
-class Router
-{
-	function doUserAction() {
+
+
+class Router {
+ 
+    function doUserAction() {
+       
        
         (new Presenter())->putMenu();
        
@@ -12,4 +15,5 @@ class Router
           
         (new Logic(new Presenter))->$function();
     }
+ 
 }
