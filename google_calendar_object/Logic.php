@@ -1,11 +1,14 @@
 <?php
 
       class Logic {
-          
+
+        // object initialization Presenter
+
         private $presenter;
         function __construct(Presenter $presenter) {
                $this->presenter = $presenter;
         }
+
         function putHome() {
               $this->presenter->putHome();
         }
@@ -26,8 +29,6 @@
                 $this->presenter->putEventListElement($event);
             }
         }
-        
-        
         
         function printEventDetails() {
             // global $client;

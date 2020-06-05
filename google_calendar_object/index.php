@@ -17,13 +17,11 @@ require_once './Router.php';
 
 
 session_start();
- 
+
 $client = createClient();
 
 
-if(!authenticate($client))
- return;
+if (!authenticate($client))
+    return;
 
- (new Router())->doUserAction();
-
- 
+(new Router())->doUserAction(); // call method doUserAction
